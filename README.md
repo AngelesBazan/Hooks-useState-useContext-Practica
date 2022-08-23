@@ -1,8 +1,5 @@
-# Ejercicio de Hooks
+# Lista de Tareas
 
+[ Hacé click acá para ver la aplicación ](https://angelesbazan.github.io/listaTareas/)
 
-* Reconstruir los modulos  y levantar el proyecto
-```
-npm install
-npm run dev
-```
+Armá tu lista de tareas pendientes y eliminalas una por una
