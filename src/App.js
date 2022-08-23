@@ -3,8 +3,6 @@ import { NuevoTodo } from './components/NuevoTodo';
 import { Todos } from './components/Todos';
 import TodosContextProvider from './context/TodosContext';
 
-
-
 function App() {
 	return (
 		<div className="App">

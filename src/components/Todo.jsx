@@ -5,8 +5,6 @@ export const Todo = ({ todo }) => {
 	
 	const { eliminarTodos } = useContext(TodosContext)
 	
-
-
 	return (
 		<div className="todo">
 			<p>{todo.nombre}</p>

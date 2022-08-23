@@ -8,16 +8,10 @@ const TodosContextProvider = ({ children }) => {
 
   const agregarTodos = (tarea) => {
     setTodos([...todos, tarea])
-
-    // Opcion 2
-    // const temporal = todos
-    // temporal.push(tarea)
-    // setTodos(temporal)
   }
 
   const eliminarTodos = (id) => {
     const todosFiltrados = todos.filter(todo => todo.id !== id)
-
     setTodos(todosFiltrados)
   }
 

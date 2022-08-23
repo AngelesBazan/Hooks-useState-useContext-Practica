@@ -9,8 +9,6 @@ export const NuevoTodo = () => {
 
 	const cambiarTarea = e => setTarea(e.target.value)
 
-	// console.log(todos);
-
 	const agregarTarea = () => {
 		agregarTodos({
 			id: todos.length + 1,
